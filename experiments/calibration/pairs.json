@@ -1,0 +1,1305 @@
+{
+ "pairs": [
+  {
+   "q": "006768_c120f037.jpg",
+   "cand": "006768_c420f024.jpg",
+   "same": true,
+   "qid": "006768",
+   "cid": "006768",
+   "cos": 0.8447,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.4
+   }
+  },
+  {
+   "q": "006768_c120f037.jpg",
+   "cand": "011149_c146f024.jpg",
+   "same": false,
+   "qid": "006768",
+   "cid": "011149",
+   "cos": 0.663,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with a similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.88
+   }
+  },
+  {
+   "q": "010310_c441f037.jpg",
+   "cand": "010310_c341f021.jpg",
+   "same": true,
+   "qid": "010310",
+   "cid": "010310",
+   "cos": 0.9711,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show the same vessel with identical hull shape, superstructure, color pattern, and markings.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 24.21
+   }
+  },
+  {
+   "q": "010310_c441f037.jpg",
+   "cand": "007649_c224f023.jpg",
+   "same": false,
+   "qid": "010310",
+   "cid": "007649",
+   "cos": 0.6533,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 17.61
+   }
+  },
+  {
+   "q": "008431_c428f001.jpg",
+   "cand": "008431_c328f036.jpg",
+   "same": true,
+   "qid": "008431",
+   "cid": "008431",
+   "cos": 0.8995,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern appear to be identical in both images, indicating they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 13.31
+   }
+  },
+  {
+   "q": "008431_c428f001.jpg",
+   "cand": "008163_c425f017.jpg",
+   "same": false,
+   "qid": "008431",
+   "cid": "008163",
+   "cos": 0.7122,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and colors are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 11.04
+   }
+  },
+  {
+   "q": "011510_c147f010.jpg",
+   "cand": "011510_c147f024.jpg",
+   "same": true,
+   "qid": "011510",
+   "cid": "011510",
+   "cos": 0.9842,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The candidate crop does not show the same individual vessel as the reference. The candidate appears to be a different ship with a distinct hull shape and superstructure.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 24.15
+   }
+  },
+  {
+   "q": "011510_c147f010.jpg",
+   "cand": "004941_c309f003.jpg",
+   "same": false,
+   "qid": "011510",
+   "cid": "004941",
+   "cos": 0.5472,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures of the two vessels are different.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 14.76
+   }
+  },
+  {
+   "q": "006708_c120f010.jpg",
+   "cand": "006708_c320f021.jpg",
+   "same": true,
+   "qid": "006708",
+   "cid": "006708",
+   "cos": 0.8876,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.48
+   }
+  },
+  {
+   "q": "006708_c120f010.jpg",
+   "cand": "011958_c252f040.jpg",
+   "same": false,
+   "qid": "006708",
+   "cid": "011958",
+   "cos": 0.7282,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.05
+   }
+  },
+  {
+   "q": "010234_c141f001.jpg",
+   "cand": "010234_c141f009.jpg",
+   "same": true,
+   "qid": "010234",
+   "cid": "010234",
+   "cos": 0.4476,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The first image shows a close-up of a cylindrical object with a metallic texture and bolts, which is not a vessel. The second image depicts a large ship with a distinct hull shape, superstructure, and markings that are clearly different from the first image.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 16.62
+   }
+  },
+  {
+   "q": "010234_c141f001.jpg",
+   "cand": "002072_c303f003.jpg",
+   "same": false,
+   "qid": "010234",
+   "cid": "002072",
+   "cos": 0.319,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The reference and candidate images show different hull shapes and superstructures. The reference image shows a cylindrical tank-like structure, while the candidate image displays a traditional ship with a distinct bow and stern.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 20.91
+   }
+  },
+  {
+   "q": "011973_c152f019.jpg",
+   "cand": "011973_c252f032.jpg",
+   "same": true,
+   "qid": "011973",
+   "cid": "011973",
+   "cos": 0.9563,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, color pattern, and markings appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 13.54
+   }
+  },
+  {
+   "q": "011973_c152f019.jpg",
+   "cand": "000236_c501f031.jpg",
+   "same": false,
+   "qid": "011973",
+   "cid": "000236",
+   "cos": 0.5263,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 11.85
+   }
+  },
+  {
+   "q": "001204_c302f010.jpg",
+   "cand": "001204_c502f026.jpg",
+   "same": true,
+   "qid": "001204",
+   "cid": "001204",
+   "cos": 0.9443,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and overall appearance of the vessel in both images are identical, indicating they are the same individual vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 13.45
+   }
+  },
+  {
+   "q": "001204_c302f010.jpg",
+   "cand": "007123_c220f001.jpg",
+   "same": false,
+   "qid": "001204",
+   "cid": "007123",
+   "cos": 0.5376,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.96
+   }
+  },
+  {
+   "q": "005545_c314f019.jpg",
+   "cand": "005545_c414f004.jpg",
+   "same": true,
+   "qid": "005545",
+   "cid": "005545",
+   "cos": 0.89,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show the same hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 8.3
+   }
+  },
+  {
+   "q": "005545_c314f019.jpg",
+   "cand": "006762_c120f033.jpg",
+   "same": false,
+   "qid": "005545",
+   "cid": "006762",
+   "cos": 0.7903,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a ship with a similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.52
+   }
+  },
+  {
+   "q": "010107_c339f028.jpg",
+   "cand": "010107_c139f027.jpg",
+   "same": true,
+   "qid": "010107",
+   "cid": "010107",
+   "cos": 0.9406,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.68
+   }
+  },
+  {
+   "q": "010107_c339f028.jpg",
+   "cand": "004962_c510f025.jpg",
+   "same": false,
+   "qid": "010107",
+   "cid": "004962",
+   "cos": 0.4357,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The first image shows a small boat with a person standing in it, while the second image does not depict any vessel at all.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 14.05
+   }
+  },
+  {
+   "q": "005066_c110f001.jpg",
+   "cand": "005066_c510f002.jpg",
+   "same": true,
+   "qid": "005066",
+   "cid": "005066",
+   "cos": 0.9117,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes and superstructures appear identical in both images, suggesting they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.46
+   }
+  },
+  {
+   "q": "005066_c110f001.jpg",
+   "cand": "003191_c304f018.jpg",
+   "same": false,
+   "qid": "005066",
+   "cid": "003191",
+   "cos": 0.5325,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 9.05
+   }
+  },
+  {
+   "q": "010510_c143f001.jpg",
+   "cand": "010510_c243f017.jpg",
+   "same": true,
+   "qid": "010510",
+   "cid": "010510",
+   "cos": 0.9039,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with white and red markings.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.35
+   }
+  },
+  {
+   "q": "010510_c143f001.jpg",
+   "cand": "010796_c346f030.jpg",
+   "same": false,
+   "qid": "010510",
+   "cid": "010796",
+   "cos": 0.7446,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.35
+   }
+  },
+  {
+   "q": "001308_c302f001.jpg",
+   "cand": "001308_c402f014.jpg",
+   "same": true,
+   "qid": "001308",
+   "cid": "001308",
+   "cos": 0.8668,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern appear to match between the two images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.32
+   }
+  },
+  {
+   "q": "001308_c302f001.jpg",
+   "cand": "004730_c307f034.jpg",
+   "same": false,
+   "qid": "001308",
+   "cid": "004730",
+   "cos": 0.6455,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 9.08
+   }
+  },
+  {
+   "q": "011486_c447f001.jpg",
+   "cand": "011486_c147f035.jpg",
+   "same": true,
+   "qid": "011486",
+   "cid": "011486",
+   "cos": 0.8853,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.86
+   }
+  },
+  {
+   "q": "011486_c447f001.jpg",
+   "cand": "007700_c524f032.jpg",
+   "same": false,
+   "qid": "011486",
+   "cid": "007700",
+   "cos": 0.6432,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.27
+   }
+  },
+  {
+   "q": "007228_c320f010.jpg",
+   "cand": "007228_c120f004.jpg",
+   "same": true,
+   "qid": "007228",
+   "cid": "007228",
+   "cos": 0.9239,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.64
+   }
+  },
+  {
+   "q": "007228_c320f010.jpg",
+   "cand": "011986_c252f035.jpg",
+   "same": false,
+   "qid": "007228",
+   "cid": "011986",
+   "cos": 0.7306,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.73
+   }
+  },
+  {
+   "q": "000444_c302f037.jpg",
+   "cand": "000444_c302f008.jpg",
+   "same": true,
+   "qid": "000444",
+   "cid": "000444",
+   "cos": 0.9319,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.87
+   }
+  },
+  {
+   "q": "000444_c302f037.jpg",
+   "cand": "002696_c404f007.jpg",
+   "same": false,
+   "qid": "000444",
+   "cid": "002696",
+   "cos": 0.6748,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.31
+   }
+  },
+  {
+   "q": "008766_c429f001.jpg",
+   "cand": "008766_c229f020.jpg",
+   "same": true,
+   "qid": "008766",
+   "cid": "008766",
+   "cos": 0.9039,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show the same hull shape, superstructure, and color pattern, indicating they depict the same individual vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 22.58
+   }
+  },
+  {
+   "q": "008766_c429f001.jpg",
+   "cand": "003922_c106f006.jpg",
+   "same": false,
+   "qid": "008766",
+   "cid": "003922",
+   "cos": 0.6936,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 16.36
+   }
+  },
+  {
+   "q": "007836_c324f010.jpg",
+   "cand": "007836_c224f003.jpg",
+   "same": true,
+   "qid": "007836",
+   "cid": "007836",
+   "cos": 0.8704,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.6
+   }
+  },
+  {
+   "q": "007836_c324f010.jpg",
+   "cand": "003583_c305f031.jpg",
+   "same": false,
+   "qid": "007836",
+   "cid": "003583",
+   "cos": 0.4155,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 12.09
+   }
+  },
+  {
+   "q": "007704_c324f010.jpg",
+   "cand": "007704_c324f035.jpg",
+   "same": true,
+   "qid": "007704",
+   "cid": "007704",
+   "cos": 0.6687,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with red and white stripes, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.09
+   }
+  },
+  {
+   "q": "007704_c324f010.jpg",
+   "cand": "004374_c106f023.jpg",
+   "same": false,
+   "qid": "007704",
+   "cid": "004374",
+   "cos": 0.6252,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.47
+   }
+  },
+  {
+   "q": "007320_c122f028.jpg",
+   "cand": "007320_c322f038.jpg",
+   "same": true,
+   "qid": "007320",
+   "cid": "007320",
+   "cos": 0.877,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.85
+   }
+  },
+  {
+   "q": "007320_c122f028.jpg",
+   "cand": "010448_c542f016.jpg",
+   "same": false,
+   "qid": "007320",
+   "cid": "010448",
+   "cos": 0.8146,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large naval ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.53
+   }
+  },
+  {
+   "q": "005439_c313f037.jpg",
+   "cand": "005439_c413f002.jpg",
+   "same": true,
+   "qid": "005439",
+   "cid": "005439",
+   "cos": 0.8188,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with red and white stripes, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.21
+   }
+  },
+  {
+   "q": "005439_c313f037.jpg",
+   "cand": "006341_c318f039.jpg",
+   "same": false,
+   "qid": "005439",
+   "cid": "006341",
+   "cos": 0.4446,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 9.95
+   }
+  },
+  {
+   "q": "011466_c347f037.jpg",
+   "cand": "011466_c347f038.jpg",
+   "same": true,
+   "qid": "011466",
+   "cid": "011466",
+   "cos": 0.8596,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 8.83
+   }
+  },
+  {
+   "q": "011466_c347f037.jpg",
+   "cand": "006626_c419f019.jpg",
+   "same": false,
+   "qid": "011466",
+   "cid": "006626",
+   "cos": 0.6381,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and superstructure, with a dark color pattern and markings that appear consistent across both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 13.06
+   }
+  },
+  {
+   "q": "003979_c406f028.jpg",
+   "cand": "003979_c406f029.jpg",
+   "same": true,
+   "qid": "003979",
+   "cid": "003979",
+   "cos": 0.9367,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern are identical in both images, indicating they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.81
+   }
+  },
+  {
+   "q": "003979_c406f028.jpg",
+   "cand": "009100_c331f002.jpg",
+   "same": false,
+   "qid": "003979",
+   "cid": "009100",
+   "cos": 0.755,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 11.89
+   }
+  },
+  {
+   "q": "008112_c524f037.jpg",
+   "cand": "008112_c324f045.jpg",
+   "same": true,
+   "qid": "008112",
+   "cid": "008112",
+   "cos": 0.8707,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large cargo ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 14.8
+   }
+  },
+  {
+   "q": "008112_c524f037.jpg",
+   "cand": "007923_c324f039.jpg",
+   "same": false,
+   "qid": "008112",
+   "cid": "007923",
+   "cos": 0.5427,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large cargo ship with a similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 15.29
+   }
+  },
+  {
+   "q": "010131_c139f010.jpg",
+   "cand": "010131_c339f002.jpg",
+   "same": true,
+   "qid": "010131",
+   "cid": "010131",
+   "cos": 0.9942,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and color pattern with white and blue stripes, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.23
+   }
+  },
+  {
+   "q": "010131_c139f010.jpg",
+   "cand": "000264_c101f033.jpg",
+   "same": false,
+   "qid": "010131",
+   "cid": "000264",
+   "cos": 0.7246,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with a similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.76
+   }
+  },
+  {
+   "q": "010294_c341f028.jpg",
+   "cand": "010294_c441f039.jpg",
+   "same": true,
+   "qid": "010294",
+   "cid": "010294",
+   "cos": 0.7491,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.27
+   }
+  },
+  {
+   "q": "010294_c341f028.jpg",
+   "cand": "005651_c114f032.jpg",
+   "same": false,
+   "qid": "010294",
+   "cid": "005651",
+   "cos": 0.7653,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 11.1
+   }
+  },
+  {
+   "q": "001272_c102f028.jpg",
+   "cand": "001272_c302f002.jpg",
+   "same": true,
+   "qid": "001272",
+   "cid": "001272",
+   "cos": 0.9084,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.66
+   }
+  },
+  {
+   "q": "001272_c102f028.jpg",
+   "cand": "005635_c514f028.jpg",
+   "same": false,
+   "qid": "001272",
+   "cid": "005635",
+   "cos": 0.7455,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large barge with similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.26
+   }
+  },
+  {
+   "q": "008531_c228f037.jpg",
+   "cand": "008531_c428f032.jpg",
+   "same": true,
+   "qid": "008531",
+   "cid": "008531",
+   "cos": 0.7881,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes and superstructures in both images appear to match, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.22
+   }
+  },
+  {
+   "q": "008531_c228f037.jpg",
+   "cand": "004470_c106f035.jpg",
+   "same": false,
+   "qid": "008531",
+   "cid": "004470",
+   "cos": 0.5905,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.21
+   }
+  },
+  {
+   "q": "002261_c103f037.jpg",
+   "cand": "002261_c403f042.jpg",
+   "same": true,
+   "qid": "002261",
+   "cid": "002261",
+   "cos": 0.8861,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern appear identical in both images, indicating they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.18
+   }
+  },
+  {
+   "q": "002261_c103f037.jpg",
+   "cand": "005004_c310f009.jpg",
+   "same": false,
+   "qid": "002261",
+   "cid": "005004",
+   "cos": 0.655,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 9.48
+   }
+  },
+  {
+   "q": "010370_c241f010.jpg",
+   "cand": "010370_c341f036.jpg",
+   "same": true,
+   "qid": "010370",
+   "cid": "010370",
+   "cos": 0.9064,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with a dark top and lighter bottom.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.28
+   }
+  },
+  {
+   "q": "010370_c241f010.jpg",
+   "cand": "010830_c346f030.jpg",
+   "same": false,
+   "qid": "010370",
+   "cid": "010830",
+   "cos": 0.7565,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.11
+   }
+  },
+  {
+   "q": "008379_c128f001.jpg",
+   "cand": "008379_c328f005.jpg",
+   "same": true,
+   "qid": "008379",
+   "cid": "008379",
+   "cos": 0.8776,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures in both images appear different, indicating they are likely different vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 16.47
+   }
+  },
+  {
+   "q": "008379_c128f001.jpg",
+   "cand": "011306_c347f045.jpg",
+   "same": false,
+   "qid": "008379",
+   "cid": "011306",
+   "cos": 0.7166,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures of the two vessels are different.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.75
+   }
+  },
+  {
+   "q": "005410_c312f001.jpg",
+   "cand": "005410_c312f029.jpg",
+   "same": true,
+   "qid": "005410",
+   "cid": "005410",
+   "cos": 0.8884,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes and superstructures in both images appear to match, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.94
+   }
+  },
+  {
+   "q": "005410_c312f001.jpg",
+   "cand": "004364_c406f027.jpg",
+   "same": false,
+   "qid": "005410",
+   "cid": "004364",
+   "cos": 0.5928,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures differ significantly between the two images.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.21
+   }
+  },
+  {
+   "q": "000197_c501f010.jpg",
+   "cand": "000197_c501f045.jpg",
+   "same": true,
+   "qid": "000197",
+   "cid": "000197",
+   "cos": 0.8795,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, color pattern, and markings appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.26
+   }
+  },
+  {
+   "q": "000197_c501f010.jpg",
+   "cand": "004871_c308f013.jpg",
+   "same": false,
+   "qid": "000197",
+   "cid": "004871",
+   "cos": 0.5317,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and colors are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 16.63
+   }
+  },
+  {
+   "q": "004339_c206f037.jpg",
+   "cand": "004339_c306f043.jpg",
+   "same": true,
+   "qid": "004339",
+   "cid": "004339",
+   "cos": 0.8929,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with a green top and white bottom.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.81
+   }
+  },
+  {
+   "q": "004339_c206f037.jpg",
+   "cand": "005819_c314f019.jpg",
+   "same": false,
+   "qid": "004339",
+   "cid": "005819",
+   "cos": 0.7337,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with a dark top section and a lighter bottom section.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.84
+   }
+  },
+  {
+   "q": "000249_c401f001.jpg",
+   "cand": "000249_c301f021.jpg",
+   "same": true,
+   "qid": "000249",
+   "cid": "000249",
+   "cos": 0.911,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns are identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.92
+   }
+  },
+  {
+   "q": "000249_c401f001.jpg",
+   "cand": "004699_c407f011.jpg",
+   "same": false,
+   "qid": "000249",
+   "cid": "004699",
+   "cos": 0.7847,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and color pattern, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.39
+   }
+  },
+  {
+   "q": "004794_c507f010.jpg",
+   "cand": "004794_c307f014.jpg",
+   "same": true,
+   "qid": "004794",
+   "cid": "004794",
+   "cos": 0.9243,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns are identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.89
+   }
+  },
+  {
+   "q": "004794_c507f010.jpg",
+   "cand": "003962_c506f043.jpg",
+   "same": false,
+   "qid": "004794",
+   "cid": "003962",
+   "cos": 0.6425,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large cargo ship with a similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.74
+   }
+  },
+  {
+   "q": "006566_c518f019.jpg",
+   "cand": "006566_c418f004.jpg",
+   "same": true,
+   "qid": "006566",
+   "cid": "006566",
+   "cos": 0.8727,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, color pattern, and markings appear to be identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.02
+   }
+  },
+  {
+   "q": "006566_c518f019.jpg",
+   "cand": "001416_c103f001.jpg",
+   "same": false,
+   "qid": "006566",
+   "cid": "001416",
+   "cos": 0.5698,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.1
+   }
+  },
+  {
+   "q": "000536_c302f028.jpg",
+   "cand": "000536_c402f041.jpg",
+   "same": true,
+   "qid": "000536",
+   "cid": "000536",
+   "cos": 0.8348,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes and superstructures in both images appear identical, suggesting they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.13
+   }
+  },
+  {
+   "q": "000536_c302f028.jpg",
+   "cand": "006087_c316f003.jpg",
+   "same": false,
+   "qid": "000536",
+   "cid": "006087",
+   "cos": 0.703,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 12.69
+   }
+  },
+  {
+   "q": "009456_c132f037.jpg",
+   "cand": "009456_c332f033.jpg",
+   "same": true,
+   "qid": "009456",
+   "cid": "009456",
+   "cos": 0.8269,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern are identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.63
+   }
+  },
+  {
+   "q": "009456_c132f037.jpg",
+   "cand": "008440_c528f002.jpg",
+   "same": false,
+   "qid": "009456",
+   "cid": "008440",
+   "cos": 0.6985,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.4
+   }
+  },
+  {
+   "q": "000009_c401f028.jpg",
+   "cand": "000009_c301f016.jpg",
+   "same": true,
+   "qid": "000009",
+   "cid": "000009",
+   "cos": 0.9208,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show the same hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.92
+   }
+  },
+  {
+   "q": "000009_c401f028.jpg",
+   "cand": "009933_c237f020.jpg",
+   "same": false,
+   "qid": "000009",
+   "cid": "009933",
+   "cos": 0.7506,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.91
+   }
+  },
+  {
+   "q": "002337_c103f037.jpg",
+   "cand": "002337_c303f022.jpg",
+   "same": true,
+   "qid": "002337",
+   "cid": "002337",
+   "cos": 0.7301,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 9.14
+   }
+  },
+  {
+   "q": "002337_c103f037.jpg",
+   "cand": "001522_c403f005.jpg",
+   "same": false,
+   "qid": "002337",
+   "cid": "001522",
+   "cos": 0.6275,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.76
+   }
+  },
+  {
+   "q": "009097_c331f037.jpg",
+   "cand": "009097_c331f035.jpg",
+   "same": true,
+   "qid": "009097",
+   "cid": "009097",
+   "cos": 0.9391,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns, including the red and white stripes and the markings on the containers, are identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 14.08
+   }
+  },
+  {
+   "q": "009097_c331f037.jpg",
+   "cand": "000266_c101f013.jpg",
+   "same": false,
+   "qid": "009097",
+   "cid": "000266",
+   "cos": 0.639,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.68
+   }
+  },
+  {
+   "q": "006093_c216f001.jpg",
+   "cand": "006093_c416f023.jpg",
+   "same": true,
+   "qid": "006093",
+   "cid": "006093",
+   "cos": 0.9453,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show the same vessel with identical hull shape, superstructure, color pattern, and markings.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 16.94
+   }
+  },
+  {
+   "q": "006093_c216f001.jpg",
+   "cand": "009219_c532f006.jpg",
+   "same": false,
+   "qid": "006093",
+   "cid": "009219",
+   "cos": 0.3923,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 13.32
+   }
+  },
+  {
+   "q": "003621_c305f010.jpg",
+   "cand": "003621_c305f008.jpg",
+   "same": true,
+   "qid": "003621",
+   "cid": "003621",
+   "cos": 0.9632,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, color pattern, and markings appear identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 20.4
+   }
+  },
+  {
+   "q": "003621_c305f010.jpg",
+   "cand": "008594_c328f029.jpg",
+   "same": false,
+   "qid": "003621",
+   "cid": "008594",
+   "cos": 0.5615,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating that these are two separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 15.0
+   }
+  },
+  {
+   "q": "009949_c337f001.jpg",
+   "cand": "009949_c537f006.jpg",
+   "same": true,
+   "qid": "009949",
+   "cid": "009949",
+   "cos": 0.9107,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, color pattern, and markings, indicating they represent the same individual vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 12.98
+   }
+  },
+  {
+   "q": "009949_c337f001.jpg",
+   "cand": "009740_c134f029.jpg",
+   "same": false,
+   "qid": "009949",
+   "cid": "009740",
+   "cos": 0.6789,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 12.65
+   }
+  },
+  {
+   "q": "010876_c546f037.jpg",
+   "cand": "010876_c146f009.jpg",
+   "same": true,
+   "qid": "010876",
+   "cid": "010876",
+   "cos": 0.8254,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape, superstructure, and color pattern with white and black stripes, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 14.13
+   }
+  },
+  {
+   "q": "010876_c546f037.jpg",
+   "cand": "010198_c540f003.jpg",
+   "same": false,
+   "qid": "010876",
+   "cid": "010198",
+   "cos": 0.6751,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are not the same vessel.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.94
+   }
+  },
+  {
+   "q": "007616_c124f037.jpg",
+   "cand": "007616_c224f029.jpg",
+   "same": true,
+   "qid": "007616",
+   "cid": "007616",
+   "cos": 0.9028,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, color pattern, and markings appear to be identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.81
+   }
+  },
+  {
+   "q": "007616_c124f037.jpg",
+   "cand": "007799_c524f011.jpg",
+   "same": false,
+   "qid": "007616",
+   "cid": "007799",
+   "cos": 0.7805,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shape, superstructure, and color pattern match between the two images, indicating they are the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.37
+   }
+  },
+  {
+   "q": "006438_c418f019.jpg",
+   "cand": "006438_c118f023.jpg",
+   "same": true,
+   "qid": "006438",
+   "cid": "006438",
+   "cos": 0.8326,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a ship with similar hull shape, superstructure, and color pattern.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 9.76
+   }
+  },
+  {
+   "q": "006438_c418f019.jpg",
+   "cand": "003692_c505f011.jpg",
+   "same": false,
+   "qid": "006438",
+   "cid": "003692",
+   "cos": 0.4629,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 11.38
+   }
+  },
+  {
+   "q": "011706_c250f037.jpg",
+   "cand": "011706_c450f015.jpg",
+   "same": true,
+   "qid": "011706",
+   "cid": "011706",
+   "cos": 0.9114,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a similar hull shape and color pattern, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.39
+   }
+  },
+  {
+   "q": "011706_c250f037.jpg",
+   "cand": "000609_c402f023.jpg",
+   "same": false,
+   "qid": "011706",
+   "cid": "000609",
+   "cos": 0.6883,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"NO\",\n  \"evidence\": \"The hull shapes and superstructures are different, indicating they are separate vessels.\"\n}\n```",
+    "answer": "NO",
+    "seconds": 10.24
+   }
+  },
+  {
+   "q": "011128_c346f010.jpg",
+   "cand": "011128_c346f016.jpg",
+   "same": true,
+   "qid": "011128",
+   "cid": "011128",
+   "cos": 0.9082,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"The hull shapes, superstructures, and color patterns are identical in both images.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 10.14
+   }
+  },
+  {
+   "q": "011128_c346f010.jpg",
+   "cand": "011602_c249f018.jpg",
+   "same": false,
+   "qid": "011128",
+   "cid": "011602",
+   "cos": 0.7812,
+   "vlm": {
+    "raw": "```json\n{\n  \"same\": \"YES\",\n  \"evidence\": \"Both images show a large ship with similar hull shape and superstructure, indicating they are likely the same vessel.\"\n}\n```",
+    "answer": "YES",
+    "seconds": 11.96
+   }
+  }
+ ],
+ "budget": 100
+}

@@ -1,0 +1,58 @@
+{
+ "train/1-Ship": {
+  "summary": {
+   "A": {
+    "mean_iou": 0.9216,
+    "succ": 1.0,
+    "n": 55
+   },
+   "A_V0": {
+    "mean_iou": 0.9213,
+    "succ": 1.0,
+    "n": 55
+   }
+  }
+ },
+ "train/2-USV": {
+  "summary": {
+   "A": {
+    "mean_iou": 0.9465,
+    "succ": 1.0,
+    "n": 55
+   },
+   "A_V0": {
+    "mean_iou": 0.948,
+    "succ": 1.0,
+    "n": 55
+   }
+  }
+ },
+ "test/16-USV": {
+  "summary": {
+   "A": {
+    "mean_iou": 0.4235,
+    "succ": 0.4634,
+    "n": 82
+   },
+   "A_V0": {
+    "mean_iou": 0.8583,
+    "succ": 0.9268,
+    "n": 82
+   }
+  }
+ },
+ "test/1-Boat": {
+  "summary": {
+   "A": {
+    "mean_iou": 0.8673,
+    "succ": 1.0,
+    "n": 55
+   },
+   "A_V0": {
+    "mean_iou": 0.7972,
+    "succ": 0.9091,
+    "n": 55
+   }
+  }
+ }
+}

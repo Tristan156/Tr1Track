@@ -1,0 +1,227 @@
+{
+  "utc": "2026-10-30T09:02:29.002133+00:00",
+  "actual_command": [
+    "scripts/audit_research_returns_20261030.py",
+    "--output",
+    "runs/return_audit_20261030_r01",
+    "--ir-root",
+    "assets/e06_target/ir_event_bundle"
+  ],
+  "git_commit": "0c8d73c883e24bbbd66ec5589d5ac076baafa4c1",
+  "script_sha256": "150265f5a8aacfb0c8d356d80fe5369c8126c04c7a40adfcd5887c58d6ba905f",
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "new_GPU_calls": 0,
+  "new_VLM_calls": 0,
+  "input_files": {
+    "experiments/08_shipreid_identity/results/pairs.json": {
+      "bytes": 38805,
+      "sha256": "1ff29af6005ee92a4f0f230ed0525d4ab7f7787af1e4feddba08078e771c8f60"
+    },
+    "experiments/08_shipreid_identity/results/summary.json": {
+      "bytes": 189,
+      "sha256": "6b4b4ed7871c28d2f4565ea7580348f5e7904e7d625ef44c373539f33b91d1a1"
+    },
+    "experiments/08_shipreid_identity/results/dino_summary.json": {
+      "bytes": 127,
+      "sha256": "157ee312b753279dfbe18650aaf4fb63a0d872a786140e0ce63f09e6216c35f5"
+    },
+    "experiments/09_loop_recovery/loop_results.json": {
+      "bytes": 27963,
+      "sha256": "a507585d5d4d5565cf794844e32354212b5496397d22d852f94f6f8a063a8ab4"
+    },
+    "experiments/09_loop_recovery/loop_boat_results.json": {
+      "bytes": 735,
+      "sha256": "70467ce7c2e2a07a6f0da28bd351beabe9cdc10de204e66cd9744dd18fcb0555"
+    },
+    "experiments/09_loop_recovery/loop_gated_results.json": {
+      "bytes": 7956,
+      "sha256": "3ca8692ffdc259a4cc66c445431c8f0aba4cbae9388e5bdaa675abf25aa784e1"
+    },
+    "results/ppt_figs/make_ppt_figs.py": {
+      "bytes": 6724,
+      "sha256": "bbb230b4a183182536cfb69ab74f500fd5f00fe5500a503c2288f184fe3228dc"
+    }
+  },
+  "shipreid": {
+    "pairs": 100,
+    "query_identities": 50,
+    "logged_generation_results": 100,
+    "raw_parse_invalid_indices": [],
+    "not_run_indices": [],
+    "error_indices": [],
+    "raw_answer_mismatch_indices": [],
+    "Qwen_at_0_80": {
+      "TP": 45,
+      "FN": 5,
+      "TN": 49,
+      "FP": 1
+    },
+    "VLM": {
+      "TP": 45,
+      "FN": 5,
+      "TN": 34,
+      "FP": 16,
+      "INVALID": 0,
+      "NOT_RUN": 0,
+      "ERROR": 0
+    },
+    "paired": {
+      "both_correct": 77,
+      "visual_only": 17,
+      "language_only": 2,
+      "both_wrong": 4,
+      "not_run": 0
+    },
+    "Qwen_accuracy": 0.94,
+    "VLM_accuracy": 0.79,
+    "in_sample_best": {
+      "threshold": 0.8,
+      "correct": 94
+    },
+    "VLM_attempted_accuracy": 0.79,
+    "VLM_accuracy_denominator": "all planned pairs; attempted accuracy also reported separately",
+    "saved_summary_consistent": true,
+    "same_camera_token_positive_pairs": 11,
+    "dino": {
+      "reported": {
+        "model": "facebook/dinov2-base",
+        "median_same": 0.7994,
+        "median_diff": 0.3262,
+        "best_th": 0.52,
+        "acc": 0.94,
+        "n": 100
+      },
+      "independent_recount": "UNAVAILABLE: per-pair scores not returned"
+    },
+    "scope": "in-sample calibration; no independent test or input-pixel verification"
+  },
+  "IR": {
+    "by_sequence": {
+      "validation/01_4485_2985-4484": {
+        "A": {
+          "recorded_frames": 164,
+          "visible_n": 90,
+          "null_n": 74,
+          "success": 52,
+          "mean_saved_iou": 0.46043333333333336,
+          "success_rate": 0.5777777777777777,
+          "summary_consistent": true,
+          "GT_frame_visibility_alignment": true
+        },
+        "A_V0": {
+          "recorded_frames": 164,
+          "visible_n": 90,
+          "null_n": 74,
+          "success": 86,
+          "mean_saved_iou": 0.7544777777777778,
+          "success_rate": 0.9555555555555556,
+          "summary_consistent": true,
+          "GT_frame_visibility_alignment": true
+        }
+      },
+      "validation/02_1610_0001_1500": {
+        "A": {
+          "recorded_frames": 121,
+          "visible_n": 90,
+          "null_n": 31,
+          "success": 27,
+          "mean_saved_iou": 0.25345555555555555,
+          "success_rate": 0.3,
+          "summary_consistent": true,
+          "GT_frame_visibility_alignment": true
+        },
+        "A_V0": {
+          "recorded_frames": 121,
+          "visible_n": 90,
+          "null_n": 31,
+          "success": 87,
+          "mean_saved_iou": 0.8481666666666666,
+          "success_rate": 0.9666666666666667,
+          "summary_consistent": true,
+          "GT_frame_visibility_alignment": true
+        }
+      }
+    },
+    "scope": "saved three-decimal IoU recount; no boxes, so geometry not independently verified",
+    "GT_source_sha256": "cea2b24624e600c85f1fb13fa5243aff111cae44032c6cea4bb4cf3cca99bdef",
+    "IR_control_warning": "returned runner gates feedback on V0.iou non-null; GT-derived eligibility"
+  },
+  "gated": {
+    "summary_reaggregation_only": {
+      "A": {
+        "macro_success": 0.86585,
+        "macro_mean_iou": 0.789725,
+        "visible_n": 247,
+        "success_inferred_from_rounded_summaries": 203,
+        "weighted_success_inferred": 0.8218623481781376
+      },
+      "A_V0": {
+        "macro_success": 0.958975,
+        "macro_mean_iou": 0.8812,
+        "visible_n": 247,
+        "success_inferred_from_rounded_summaries": 236,
+        "weighted_success_inferred": 0.9554655870445344
+      },
+      "A_gate_GT": {
+        "macro_success": 0.98475,
+        "macro_mean_iou": 0.9009499999999999,
+        "visible_n": 247,
+        "success_inferred_from_rounded_summaries": 242,
+        "weighted_success_inferred": 0.979757085020243
+      },
+      "A_gate_sig": {
+        "macro_success": 0.98475,
+        "macro_mean_iou": 0.90125,
+        "visible_n": 247,
+        "success_inferred_from_rounded_summaries": 242,
+        "weighted_success_inferred": 0.979757085020243
+      }
+    },
+    "original_A_query_count": 25,
+    "original_A_valid_query_count": 22,
+    "original_A_threshold_diagnostics": {
+      "0.3": {
+        "TP": 3,
+        "FP": 0,
+        "TN": 18,
+        "FN": 1,
+        "unknown_triggered": 1,
+        "triggered_bad_with_correct_V0": 2,
+        "triggered_bad_with_wrong_V0": 1
+      },
+      "0.45": {
+        "TP": 4,
+        "FP": 0,
+        "TN": 18,
+        "FN": 0,
+        "unknown_triggered": 3,
+        "triggered_bad_with_correct_V0": 3,
+        "triggered_bad_with_wrong_V0": 1
+      }
+    },
+    "scope": "post-hoc diagnostics on original A; not actual signal-arm action replay; threshold 0.30 not held-out"
+  },
+  "legacy_fig3_check": [
+    {
+      "sequence": "train/1-Ship",
+      "actual_signal_summary": 1.0,
+      "legacy_drawn_value": 1.0
+    },
+    {
+      "sequence": "train/2-USV",
+      "actual_signal_summary": 1.0,
+      "legacy_drawn_value": 1.0
+    },
+    {
+      "sequence": "test/16-USV",
+      "actual_signal_summary": 0.939,
+      "legacy_drawn_value": 0.5823999999999999
+    },
+    {
+      "sequence": "test/1-Boat",
+      "actual_signal_summary": 1.0,
+      "legacy_drawn_value": 1.0
+    }
+  ],
+  "missing_original_E06B_12_run": "not supplied by these returned summary files; collect existing run separately"
+}

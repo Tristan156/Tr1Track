@@ -1,0 +1,11 @@
+{
+ "cos_median_same": 0.8962,
+ "cos_median_diff": 0.659,
+ "cos_best_th": 0.8,
+ "cos_acc": 0.94,
+ "vlm_valid": 100,
+ "vlm_acc": 0.79,
+ "vlm_same_ok": 45,
+ "vlm_diff_ok": 34,
+ "budget": 100
+}

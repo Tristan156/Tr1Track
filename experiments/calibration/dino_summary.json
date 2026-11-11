@@ -1,0 +1,8 @@
+{
+ "model": "facebook/dinov2-base",
+ "median_same": 0.7994,
+ "median_diff": 0.3262,
+ "best_th": 0.52,
+ "acc": 0.94,
+ "n": 100
+}
