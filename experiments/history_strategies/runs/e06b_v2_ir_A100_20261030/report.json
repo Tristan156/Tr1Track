@@ -1,0 +1,1450 @@
+{
+  "rows": [
+    {
+      "case_id": "validation_01_4485_2985-4484_000802",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 802,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            495.48258209228516,
+            189.09739589691162,
+            48.600372314453125,
+            20.709596633911133
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.7997486696830665,
+          "success": true,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            496.4164688959718,
+            189.72254515159875,
+            47.81576478481293,
+            20.04256184399128
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.830743591812339,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            496.4164688959718,
+            189.72254515159875,
+            47.81576478481293,
+            20.04256184399128
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.830743591812339,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            496.4164688959718,
+            189.72254515159875,
+            47.81576478481293,
+            20.04256184399128
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.830743591812339,
+          "success": true,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            144.49143012799323,
+            441.370554250665,
+            35.14266353845596,
+            16.030585885047913
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            144.49143012799323,
+            441.370554250665,
+            35.14266353845596,
+            16.030585885047913
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_01_4485_2985-4484_000850",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 850,
+      "state": "absent",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            13.565793204423244,
+            399.5116729736328,
+            145.64102172851562,
+            108.62166595458984
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            25.193969236686826,
+            423.8231659941375,
+            40.54948005080223,
+            41.65521615743637
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            509.8564978092909,
+            400.79190150648355,
+            53.75897267460823,
+            22.639157831668854
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            509.8564978092909,
+            400.79190150648355,
+            53.75897267460823,
+            22.639157831668854
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            509.8564978092909,
+            400.79190150648355,
+            53.75897267460823,
+            22.639157831668854
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            509.8564978092909,
+            400.79190150648355,
+            53.75897267460823,
+            22.639157831668854
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        }
+      },
+      "oracle4": false
+    },
+    {
+      "case_id": "validation_01_4485_2985-4484_000888",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 888,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            24.404027152177207,
+            403.583438873291,
+            157.14170837402344,
+            104.88021850585938
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            623.1708656810224,
+            213.6848731599748,
+            16.469578608870506,
+            14.504879213869572
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.6884115791831487,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            511.4289089143276,
+            400.8513933941722,
+            52.3933669924736,
+            22.79000821709633
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            511.4289089143276,
+            400.8513933941722,
+            52.3933669924736,
+            22.79000821709633
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            511.4289089143276,
+            400.8513933941722,
+            52.3933669924736,
+            22.79000821709633
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            511.4289089143276,
+            400.8513933941722,
+            52.3933669924736,
+            22.79000821709633
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_01_4485_2985-4484_000903",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 903,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            38.99211614143502,
+            408.70881843566895,
+            183.11366271972656,
+            101.6318359375
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            529.6200896427035,
+            215.37405066937208,
+            34.18152867257595,
+            18.866949766874313
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.6090272304274991,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            529.6200896427035,
+            215.37405066937208,
+            34.18152867257595,
+            18.866949766874313
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.6090272304274991,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            511.4325134009123,
+            401.1891354210675,
+            52.35537055134773,
+            22.343220591545105
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            511.4325134009123,
+            401.1891354210675,
+            52.35537055134773,
+            22.343220591545105
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            511.4325134009123,
+            401.1891354210675,
+            52.35537055134773,
+            22.343220591545105
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_01_4485_2985-4484_000918",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 918,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            32.85881536018502,
+            401.8983402252197,
+            134.4822540283203,
+            105.66413879394531
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            511.86387917399406,
+            401.3981764540076,
+            51.88398760557175,
+            21.62826919555664
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            423.90376821905375,
+            218.10554872825742,
+            43.3940332531929,
+            20.251501232385635
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8437843229975127,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            511.86387917399406,
+            401.3981764540076,
+            51.88398760557175,
+            21.62826919555664
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            423.90376821905375,
+            218.10554872825742,
+            43.3940332531929,
+            20.251501232385635
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8437843229975127,
+          "success": true,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            423.90376821905375,
+            218.10554872825742,
+            43.3940332531929,
+            20.251501232385635
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8437843229975127,
+          "success": true,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_01_4485_2985-4484_000948",
+      "sequence": "validation/01_4485_2985-4484",
+      "source_frame": 948,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            353.73061617618623,
+            236.89042472839355,
+            43.127708435058594,
+            18.0102596282959
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.7983412453929783,
+          "success": true,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            352.8876454550773,
+            237.53261902928352,
+            43.43447372317314,
+            17.58883097022772
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8263561467051409,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            352.8876454550773,
+            237.53261902928352,
+            43.43447372317314,
+            17.58883097022772
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8263561467051409,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            352.8876454550773,
+            237.53261902928352,
+            43.43447372317314,
+            17.58883097022772
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8263561467051409,
+          "success": true,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            352.8876454550773,
+            237.53261902928352,
+            43.43447372317314,
+            17.58883097022772
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8263561467051409,
+          "success": true,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            352.8876454550773,
+            237.53261902928352,
+            43.43447372317314,
+            17.58883097022772
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8263561467051409,
+          "success": true,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000219",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 219,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            216.64705657958984,
+            168.82312202453613,
+            44.74717712402344,
+            30.452754974365234
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.8332837569628516,
+          "success": true,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            215.81878396868706,
+            168.9081744203965,
+            45.87199532985687,
+            30.139104157686234
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8481356421088295,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            215.81878396868706,
+            168.9081744203965,
+            45.87199532985687,
+            30.139104157686234
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8481356421088295,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            215.81878396868706,
+            168.9081744203965,
+            45.87199532985687,
+            30.139104157686234
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8481356421088295,
+          "success": true,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            215.81878396868706,
+            168.9081744203965,
+            45.87199532985687,
+            30.139104157686234
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8481356421088295,
+          "success": true,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            215.81878396868706,
+            168.9081744203965,
+            45.87199532985687,
+            30.139104157686234
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.8481356421088295,
+          "success": true,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000246",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 246,
+      "state": "absent",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            0.1802474856376648,
+            1.2890758514404297,
+            50.91805648803711,
+            10.0
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            469.01727583259344,
+            0.872993528842926,
+            12.237150177359581,
+            10.0
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            11.412287530799716,
+            1.1357061670472177,
+            34.71059501171112,
+            10.0
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            11.412287530799716,
+            1.1357061670472177,
+            34.71059501171112,
+            10.0
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            469.01727583259344,
+            0.872993528842926,
+            12.237150177359581,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            469.01727583259344,
+            0.872993528842926,
+            12.237150177359581,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": null,
+          "success": false,
+          "false_accept": true
+        }
+      },
+      "oracle4": false
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000262",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 262,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            1.365873884409666,
+            1.1550862789154053,
+            47.11225128173828,
+            10.0
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            14.032536938786507,
+            138.27530021717152,
+            97.92705190181732,
+            41.887217462062836
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8490041876975738,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            14.032536938786507,
+            138.27530021717152,
+            97.92705190181732,
+            41.887217462062836
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8490041876975738,
+          "success": true,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            468.153745589157,
+            1.2520833890885115,
+            13.134651944041252,
+            10.0
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            468.153745589157,
+            1.2520833890885115,
+            13.134651944041252,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            468.153745589157,
+            1.2520833890885115,
+            13.134651944041252,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000277",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 277,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            1.5351368365809321,
+            1.9566030502319336,
+            52.140380859375,
+            10.0
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            574.3994080026945,
+            103.57235390941301,
+            65.15890455245972,
+            50.62271988391876
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8037331805804502,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            589.3271316587925,
+            138.1763633141915,
+            49.4064182639122,
+            27.598958402872086
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.24564700459971295,
+          "success": false,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            467.0919487501184,
+            2.143340584511563,
+            17.619825839996338,
+            10.0
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            589.3271316587925,
+            138.1763633141915,
+            49.4064182639122,
+            27.598958402872086
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.24564700459971295,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            589.3271316587925,
+            138.1763633141915,
+            49.4064182639122,
+            27.598958402872086
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.24564700459971295,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000292",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 292,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            0.0,
+            1.1497859954833984,
+            48.30694150393538,
+            10.0
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            582.730224362264,
+            89.07123785962662,
+            57.15117746591568,
+            58.49577558040619
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.8905777979540728,
+          "success": true,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            605.747285136953,
+            138.4263205677271,
+            34.12521070241928,
+            23.530072301626205
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.09218604138473212,
+          "success": false,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            605.747285136953,
+            138.4263205677271,
+            34.12521070241928,
+            23.530072301626205
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.09218604138473212,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            467.87127973387635,
+            1.6384478894372734,
+            14.884351953864098,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            467.87127973387635,
+            1.6384478894372734,
+            14.884351953864098,
+            10.0
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": true
+    },
+    {
+      "case_id": "validation_02_1610_0001_1500_000322",
+      "sequence": "validation/02_1610_0001_1500",
+      "source_frame": 322,
+      "state": "visible",
+      "arms": {
+        "A": {
+          "status": "VALID",
+          "bbox": [
+            5.910912946768477,
+            1.3497881889343262,
+            39.86103820800781,
+            10.0
+          ],
+          "accepted": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "G": {
+          "status": "VALID",
+          "bbox": [
+            608.2563553315898,
+            428.64769829809666,
+            31.25171160697937,
+            39.35006868839264
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "V0": {
+          "status": "VALID",
+          "bbox": [
+            608.2563553315898,
+            428.64769829809666,
+            31.25171160697937,
+            39.35006868839264
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "Vh": {
+          "status": "VALID",
+          "bbox": [
+            608.2563553315898,
+            428.64769829809666,
+            31.25171160697937,
+            39.35006868839264
+          ],
+          "accepted": true,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_raw": {
+          "status": "VALID",
+          "bbox": [
+            608.2563553315898,
+            428.64769829809666,
+            31.25171160697937,
+            39.35006868839264
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        },
+        "C_applied": {
+          "status": "VALID",
+          "bbox": [
+            608.2563553315898,
+            428.64769829809666,
+            31.25171160697937,
+            39.35006868839264
+          ],
+          "accepted": true,
+          "rejected": false,
+          "attempted": true,
+          "iou": 0.0,
+          "success": false,
+          "false_accept": false
+        }
+      },
+      "oracle4": false
+    }
+  ],
+  "by_sequence": {
+    "validation/01_4485_2985-4484": {
+      "queries": 6,
+      "visible": 5,
+      "absent": 1,
+      "unknown": 0,
+      "oracle4": 5,
+      "arms": {
+        "A": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 2,
+          "absent_n": 1,
+          "false_accept": 0,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "G": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 4,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "V0": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 4,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "Vh": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 2,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "C_raw": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 2,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "C_applied": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 2,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        }
+      },
+      "paired_C_raw": {
+        "A": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 1,
+          "net": 0
+        },
+        "G": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 3,
+          "net": -2
+        },
+        "V0": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 2,
+          "net": -2
+        },
+        "Vh": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 1,
+          "net": 0
+        }
+      },
+      "paired_C_applied": {
+        "A": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 1,
+          "net": 0
+        },
+        "G": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 3,
+          "net": -2
+        },
+        "V0": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 2,
+          "net": -2
+        },
+        "Vh": {
+          "n": 5,
+          "fixes": 1,
+          "damages": 1,
+          "net": 0
+        }
+      }
+    },
+    "validation/02_1610_0001_1500": {
+      "queries": 6,
+      "visible": 5,
+      "absent": 1,
+      "unknown": 0,
+      "oracle4": 4,
+      "arms": {
+        "A": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 1,
+          "absent_n": 1,
+          "false_accept": 0,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "G": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 4,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "V0": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 2,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "Vh": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 1,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "C_raw": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 1,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        },
+        "C_applied": {
+          "attempted": 6,
+          "visible_n": 5,
+          "success": 1,
+          "absent_n": 1,
+          "false_accept": 1,
+          "absent_correct_rejection": 0,
+          "visible_reachable_rejection": 0,
+          "unknown_n": 0,
+          "rejected": 0,
+          "errors": 0,
+          "invalid": 0,
+          "not_run": 0
+        }
+      },
+      "paired_C_raw": {
+        "A": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 0,
+          "net": 0
+        },
+        "G": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 3,
+          "net": -3
+        },
+        "V0": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 1,
+          "net": -1
+        },
+        "Vh": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 0,
+          "net": 0
+        }
+      },
+      "paired_C_applied": {
+        "A": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 0,
+          "net": 0
+        },
+        "G": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 3,
+          "net": -3
+        },
+        "V0": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 1,
+          "net": -1
+        },
+        "Vh": {
+          "n": 5,
+          "fixes": 0,
+          "damages": 0,
+          "net": 0
+        }
+      }
+    }
+  },
+  "closed_loop": false,
+  "interpretation": "raw choice and offline retain-local policy are separate; NOT_RUN excluded from model denominator",
+  "execution": {
+    "utc": "2026-10-30T00:45:59.021808+00:00",
+    "rows": 12,
+    "status": "COMPLETE",
+    "stop_reason": null,
+    "generation_attempts": 12,
+    "maximum": 12,
+    "elapsed_seconds_including_load_visual_io": 238.9199386490509,
+    "closed_loop": false,
+    "validation_plan_sha256": "d9a996134e7bf9ef349098165698a63664958174190db8868e4b1a55c74d34b2"
+  },
+  "prediction_sha256": "12930bd0455ff5ede19ff3c0bf1202dfa06aec562edc0ae3aac5ea6dbcaaff39"
+}

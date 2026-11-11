@@ -1,0 +1,18 @@
+{
+  "model_path": "/home/user/code/tracking-vlm-a100-lab/models/qwen25-7b",
+  "prompt_version": "e05-labelled-attribute-qa-v1",
+  "local_files_only": true,
+  "device": "cuda",
+  "use_fast": false,
+  "max_pixels_per_image": 262144,
+  "max_new_tokens": 192,
+  "transformers": "4.51.3",
+  "torch": "2.3.0+cu121",
+  "cuda_runtime": "12.1",
+  "model_class": "Qwen2_5_VLForConditionalGeneration",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "actual_model_commit": null,
+  "config_sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+  "processor_class": "Qwen2_5_VLProcessor"
+}

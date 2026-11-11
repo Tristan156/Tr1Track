@@ -1,0 +1,110 @@
+{
+  "experiment": "E06B_v2",
+  "frozen_utc": "2026-10-30T00:41:17.590444+00:00",
+  "candidate_plan_sha256": "95637508d8274eed964e0dd11b808a1367c92e2d0b5a12d1bfb52e2ee8f68aa6",
+  "candidate_cache_sha256": "e7df74d19b5178bc993b301e92e686f7d8255032621c0262ed0e86f35e27816a",
+  "opportunity_sha256": "7657f7fd48577db16161abd16d1fe466bc8aecec9654ab780064c90f1f3f88c6",
+  "case_ids": [
+    "validation_01_4485_2985-4484_000802",
+    "validation_01_4485_2985-4484_000850",
+    "validation_01_4485_2985-4484_000888",
+    "validation_01_4485_2985-4484_000903",
+    "validation_01_4485_2985-4484_000918",
+    "validation_01_4485_2985-4484_000948",
+    "validation_02_1610_0001_1500_000219",
+    "validation_02_1610_0001_1500_000246",
+    "validation_02_1610_0001_1500_000262",
+    "validation_02_1610_0001_1500_000277",
+    "validation_02_1610_0001_1500_000292",
+    "validation_02_1610_0001_1500_000322"
+  ],
+  "max_generation_attempts": 12,
+  "calls_per_case": 1,
+  "automatic_retries": 0,
+  "extra_diagnostic_calls": 0,
+  "prompt_version": "e05-labelled-attribute-qa-v1",
+  "prompt": "Verify the identity of the original initialization target among current visual tracker proposals. Each image has an explicit reference/history/distractor/candidate label immediately before it. Past crops are predictions, not verified truth, and may already be wrong. Initialization distractor images are merely possible confusing proposals and may show the target itself or background. The supplied attributes are hypotheses, not verified facts. Candidate order is arbitrary. Select a supplied candidate letter only when visible evidence supports the same individual and the object inside the blue proposal rectangle, not any object elsewhere in the context crop. Use NONE when evidence supports that none matches; use ABSTAIN when identity is ambiguous or not visible. Neither rejection means the target is absent from the full scene. Do not infer unseen markings, motion or physical measurements. Return only JSON with exactly two string keys answer and evidence. answer is a supplied A-D letter, NONE or ABSTAIN; evidence gives a short visible reason.",
+  "mode": "direct",
+  "features": [],
+  "qwen": "/home/user/code/tracking-vlm-a100-lab/models/qwen25-7b",
+  "model_files": {
+    "chat_template.json": {
+      "bytes": 1050,
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+    },
+    "config.json": {
+      "bytes": 1374,
+      "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43"
+    },
+    "download_manifest.json": {
+      "bytes": 1514,
+      "sha256": "9d29011c6d587f64f75963aa333c5dae4e10034003ed12b3ca934805fb71750f"
+    },
+    "generation_config.json": {
+      "bytes": 216,
+      "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e"
+    },
+    "merges.txt": {
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    "model-00001-of-00005.safetensors": {
+      "bytes": 3900233256,
+      "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e"
+    },
+    "model-00002-of-00005.safetensors": {
+      "bytes": 3864726320,
+      "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024"
+    },
+    "model-00003-of-00005.safetensors": {
+      "bytes": 3864726424,
+      "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507"
+    },
+    "model-00004-of-00005.safetensors": {
+      "bytes": 3864733680,
+      "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed"
+    },
+    "model-00005-of-00005.safetensors": {
+      "bytes": 1089994880,
+      "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 57619,
+      "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9"
+    },
+    "preprocessor_config.json": {
+      "bytes": 350,
+      "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+    },
+    "tokenizer.json": {
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    "tokenizer_config.json": {
+      "bytes": 5702,
+      "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "max_new_tokens": 192,
+  "max_pixels": 262144,
+  "do_sample": false,
+  "preprocess": "explicit shared minimum-side-28 RGB BICUBIC upscale; no monkey patch",
+  "baselines": [
+    "A_current_local",
+    "G_native_rank1",
+    "V0_real_init",
+    "Vh_same_past"
+  ],
+  "thresholds": {
+    "iou": 0.5
+  },
+  "rejection_policy": "retain current local; record raw choice separately",
+  "subset_policy": "all twelve original IR points; no per-case GT selection",
+  "independent_evaluation": false,
+  "closed_loop": false,
+  "gate": "candidate opportunity is an offline study stop rule, not a deployed GT gate"
+}

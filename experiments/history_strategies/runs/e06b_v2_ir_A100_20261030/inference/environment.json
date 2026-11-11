@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-30T00:42:00.100972+00:00",
+  "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+  "platform": "Linux-4.19.90-89.20.v2401.ky10.x86_64-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.3.0+cu121",
+    "transformers": "4.51.3",
+    "numpy": "1.26.4",
+    "Pillow": "12.3.0",
+    "opencv-python": null
+  },
+  "actual_argv": [
+    "/home/user/code/tracking-vlm-a100-lab/tracking_lab/e06b_v2.py",
+    "vlm",
+    "--run",
+    "runs/e06b_v2_ir_A100_20261030",
+    "--device",
+    "cuda"
+  ]
+}

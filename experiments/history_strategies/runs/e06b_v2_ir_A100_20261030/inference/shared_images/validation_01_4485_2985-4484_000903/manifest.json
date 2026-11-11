@@ -1,0 +1,285 @@
+{
+  "reference": {
+    "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/reference.png",
+    "sha256": "b93caaebeaf24a30a6519722a10e2e7c960ae0c749b06fb5ad26e52a975b2f79",
+    "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/reference.png",
+    "input_sha256": "b93caaebeaf24a30a6519722a10e2e7c960ae0c749b06fb5ad26e52a975b2f79",
+    "input_size_wh": [
+      75,
+      75
+    ],
+    "output_size_wh": [
+      75,
+      75
+    ],
+    "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+    "changes_sampling": false,
+    "shared_by": [
+      "V0",
+      "Vh",
+      "C"
+    ]
+  },
+  "history": [
+    {
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/history_0.png",
+      "sha256": "df0e0ba5d83250f983bcd7392e711a3461749577458cbf18745e697884a70c52",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000901_past_local.png",
+      "input_sha256": "df0e0ba5d83250f983bcd7392e711a3461749577458cbf18745e697884a70c52",
+      "input_size_wh": [
+        149,
+        128
+      ],
+      "output_size_wh": [
+        149,
+        128
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/history_1.png",
+      "sha256": "c02d15a7ab8ae4f593e56670cba1b9cc55573bcad224310100dee1283958499e",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000902_past_local.png",
+      "input_sha256": "c02d15a7ab8ae4f593e56670cba1b9cc55573bcad224310100dee1283958499e",
+      "input_size_wh": [
+        214,
+        156
+      ],
+      "output_size_wh": [
+        214,
+        156
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "p_0aa47ec79b9a884e65d4b5d7",
+      "bbox_xywh": [
+        141.32006776705384,
+        439.95446970220655,
+        42.57630041241646,
+        16.29092625528574
+      ],
+      "native_rank": 4,
+      "original_rank": 4,
+      "tracker_score": 0.44801095128059387,
+      "raw_score": 0.44801095128059387,
+      "tile_id": 7,
+      "grid_index": 148,
+      "label": "A",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/candidate_A.png",
+      "sha256": "0b2bf1ba74da1942fee334d39b43f9dec82d304dd876c1e763285149210e97ed",
+      "crop_bounds_xyxy": [
+        130,
+        416,
+        195,
+        481
+      ],
+      "inner_prediction_box_xyxy": [
+        11.320067767053843,
+        23.954469702206552,
+        53.8963681794703,
+        40.24539595749229
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 903,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000903.jpg",
+      "source_sha256": "3c6949430b2eb3cf5f5b8d5cf01dcca3556112e792b56097681b4e43d4011f3f",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000903_p_0aa47ec79b9a884e65d4b5d7.png",
+      "input_sha256": "0b2bf1ba74da1942fee334d39b43f9dec82d304dd876c1e763285149210e97ed",
+      "input_size_wh": [
+        65,
+        65
+      ],
+      "output_size_wh": [
+        65,
+        65
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_57e04ece023dfa5d1a10916b",
+      "bbox_xywh": [
+        511.4325134009123,
+        401.1891354210675,
+        52.35537055134773,
+        22.343220591545105
+      ],
+      "native_rank": 3,
+      "original_rank": 3,
+      "tracker_score": 0.4587222635746002,
+      "raw_score": 0.4587222635746002,
+      "tile_id": 14,
+      "grid_index": 550,
+      "label": "B",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/candidate_B.png",
+      "sha256": "5a568b47ff5e6e5945866f31eafdced2e245e35549f9fd29c755ce51a71aa7bd",
+      "crop_bounds_xyxy": [
+        498,
+        373,
+        577,
+        452
+      ],
+      "inner_prediction_box_xyxy": [
+        13.432513400912285,
+        28.189135421067476,
+        65.78788395226002,
+        50.53235601261258
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 903,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000903.jpg",
+      "source_sha256": "3c6949430b2eb3cf5f5b8d5cf01dcca3556112e792b56097681b4e43d4011f3f",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000903_p_57e04ece023dfa5d1a10916b.png",
+      "input_sha256": "5a568b47ff5e6e5945866f31eafdced2e245e35549f9fd29c755ce51a71aa7bd",
+      "input_size_wh": [
+        79,
+        79
+      ],
+      "output_size_wh": [
+        79,
+        79
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_9d9e9e3562f7d9118c3ae3fe",
+      "bbox_xywh": [
+        547.4073963090777,
+        213.5501107312739,
+        28.14670617878437,
+        21.88133105635643
+      ],
+      "native_rank": 2,
+      "original_rank": 2,
+      "tracker_score": 0.5666361451148987,
+      "raw_score": 0.5666361451148987,
+      "tile_id": 17,
+      "grid_index": 337,
+      "label": "C",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/candidate_C.png",
+      "sha256": "697851ef35ff7071ba4fc833252e5fcb5ed735b600533501209b047184319479",
+      "crop_bounds_xyxy": [
+        540,
+        203,
+        583,
+        246
+      ],
+      "inner_prediction_box_xyxy": [
+        7.40739630907774,
+        10.55011073127389,
+        35.55410248786211,
+        32.43144178763032
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 903,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000903.jpg",
+      "source_sha256": "3c6949430b2eb3cf5f5b8d5cf01dcca3556112e792b56097681b4e43d4011f3f",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000903_p_9d9e9e3562f7d9118c3ae3fe.png",
+      "input_sha256": "697851ef35ff7071ba4fc833252e5fcb5ed735b600533501209b047184319479",
+      "input_size_wh": [
+        43,
+        43
+      ],
+      "output_size_wh": [
+        43,
+        43
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_4b8eaede92c677e3a148f89a",
+      "bbox_xywh": [
+        529.6200896427035,
+        215.37405066937208,
+        34.18152867257595,
+        18.866949766874313
+      ],
+      "native_rank": 1,
+      "original_rank": 1,
+      "tracker_score": 0.6205535531044006,
+      "raw_score": 0.6205535531044006,
+      "tile_id": 13,
+      "grid_index": 358,
+      "label": "D",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000903/candidate_D.png",
+      "sha256": "15865214bf834518303e7c7fa78ddd2d2402d15d6048aad8b1caf27024aa2f62",
+      "crop_bounds_xyxy": [
+        521,
+        199,
+        573,
+        251
+      ],
+      "inner_prediction_box_xyxy": [
+        8.620089642703533,
+        16.37405066937208,
+        42.801618315279484,
+        35.241000436246395
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 903,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000903.jpg",
+      "source_sha256": "3c6949430b2eb3cf5f5b8d5cf01dcca3556112e792b56097681b4e43d4011f3f",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000903_p_4b8eaede92c677e3a148f89a.png",
+      "input_sha256": "15865214bf834518303e7c7fa78ddd2d2402d15d6048aad8b1caf27024aa2f62",
+      "input_size_wh": [
+        52,
+        52
+      ],
+      "output_size_wh": [
+        52,
+        52
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    }
+  ]
+}

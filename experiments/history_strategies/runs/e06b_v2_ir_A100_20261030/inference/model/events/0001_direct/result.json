@@ -1,0 +1,11 @@
+{
+  "status": "VALID",
+  "answer": "A",
+  "evidence": "The target is clearly visible in the blue box, matching the reference.",
+  "raw": "{\n  \"answer\": \"A\",\n  \"evidence\": \"The target is clearly visible in the blue box, matching the reference.\"\n}",
+  "event_id": "0001_direct",
+  "seconds": 9.329866908024997,
+  "generation_calls": 1,
+  "kind": "direct",
+  "case_id": "validation_01_4485_2985-4484_000802"
+}

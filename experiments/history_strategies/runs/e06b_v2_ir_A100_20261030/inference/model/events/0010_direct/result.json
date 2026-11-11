@@ -1,0 +1,11 @@
+{
+  "status": "VALID",
+  "answer": "C",
+  "evidence": "The target is a small, light-colored object with a distinct shape, which matches the appearance of Candidate C.",
+  "raw": "{\n  \"answer\": \"C\",\n  \"evidence\": \"The target is a small, light-colored object with a distinct shape, which matches the appearance of Candidate C.\"\n}",
+  "event_id": "0010_direct",
+  "seconds": 10.65002764086239,
+  "generation_calls": 1,
+  "kind": "direct",
+  "case_id": "validation_02_1610_0001_1500_000277"
+}

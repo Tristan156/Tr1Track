@@ -1,0 +1,24 @@
+{"event": "begin", "event_id": "0001_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000802", "utc": "2026-10-30T00:42:19.065081+00:00", "attempt_number": 1, "maximum": 12}
+{"event": "end", "event_id": "0001_direct", "status": "VALID", "seconds": 9.329866908024997, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0002_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000850", "utc": "2026-10-30T00:42:38.200471+00:00", "attempt_number": 2, "maximum": 12}
+{"event": "end", "event_id": "0002_direct", "status": "VALID", "seconds": 13.939479384105653, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0003_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000888", "utc": "2026-10-30T00:43:02.286715+00:00", "attempt_number": 3, "maximum": 12}
+{"event": "end", "event_id": "0003_direct", "status": "VALID", "seconds": 12.610949290916324, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0004_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000903", "utc": "2026-10-30T00:43:24.551632+00:00", "attempt_number": 4, "maximum": 12}
+{"event": "end", "event_id": "0004_direct", "status": "VALID", "seconds": 10.246414205990732, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0005_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000918", "utc": "2026-10-30T00:43:43.888441+00:00", "attempt_number": 5, "maximum": 12}
+{"event": "end", "event_id": "0005_direct", "status": "VALID", "seconds": 11.216593824094161, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0006_direct", "kind": "direct", "case_id": "validation_01_4485_2985-4484_000948", "utc": "2026-10-30T00:44:02.779577+00:00", "attempt_number": 6, "maximum": 12}
+{"event": "end", "event_id": "0006_direct", "status": "VALID", "seconds": 9.24423820991069, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0007_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000219", "utc": "2026-10-30T00:44:19.651985+00:00", "attempt_number": 7, "maximum": 12}
+{"event": "end", "event_id": "0007_direct", "status": "VALID", "seconds": 9.722470739856362, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0008_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000246", "utc": "2026-10-30T00:44:37.015906+00:00", "attempt_number": 8, "maximum": 12}
+{"event": "end", "event_id": "0008_direct", "status": "VALID", "seconds": 8.642942797858268, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0009_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000262", "utc": "2026-10-30T00:44:55.417401+00:00", "attempt_number": 9, "maximum": 12}
+{"event": "end", "event_id": "0009_direct", "status": "VALID", "seconds": 11.919962730025873, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0010_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000277", "utc": "2026-10-30T00:45:15.025598+00:00", "attempt_number": 10, "maximum": 12}
+{"event": "end", "event_id": "0010_direct", "status": "VALID", "seconds": 10.65002764086239, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0011_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000292", "utc": "2026-10-30T00:45:32.692023+00:00", "attempt_number": 11, "maximum": 12}
+{"event": "end", "event_id": "0011_direct", "status": "VALID", "seconds": 9.921587329823524, "model_generate_entry_invoked": true}
+{"event": "begin", "event_id": "0012_direct", "kind": "direct", "case_id": "validation_02_1610_0001_1500_000322", "utc": "2026-10-30T00:45:50.248787+00:00", "attempt_number": 12, "maximum": 12}
+{"event": "end", "event_id": "0012_direct", "status": "VALID", "seconds": 8.766246292972937, "model_generate_entry_invoked": true}

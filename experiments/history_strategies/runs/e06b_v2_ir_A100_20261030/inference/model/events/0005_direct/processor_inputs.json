@@ -1,0 +1,49 @@
+{
+  "image_grid_thw": [
+    [
+      1,
+      6,
+      6
+    ],
+    [
+      1,
+      10,
+      12
+    ],
+    [
+      1,
+      10,
+      12
+    ],
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      1,
+      6,
+      6
+    ],
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      1,
+      4,
+      6
+    ]
+  ],
+  "input_ids_sha256": "fb37d90ddd955c09e56fa263cb2b78a4fc9c66603c57acbb723437a8733b028c",
+  "input_tokens": 443,
+  "pixel_values_shape": [
+    368,
+    1176
+  ],
+  "pixel_values_sha256": "3bbf2cffc2a8b8bce8da86a35509a399148bd6b7aeea25954357f2cc1d4ab774",
+  "image_count": 7,
+  "do_sample": false,
+  "max_new_tokens": 192
+}

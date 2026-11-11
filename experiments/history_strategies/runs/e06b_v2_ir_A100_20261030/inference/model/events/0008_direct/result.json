@@ -1,0 +1,11 @@
+{
+  "status": "VALID",
+  "answer": "B",
+  "evidence": "Candidate B matches the original target's size and shape.",
+  "raw": "{\n  \"answer\": \"B\",\n  \"evidence\": \"Candidate B matches the original target's size and shape.\"\n}",
+  "event_id": "0008_direct",
+  "seconds": 8.642942797858268,
+  "generation_calls": 1,
+  "kind": "direct",
+  "case_id": "validation_02_1610_0001_1500_000246"
+}

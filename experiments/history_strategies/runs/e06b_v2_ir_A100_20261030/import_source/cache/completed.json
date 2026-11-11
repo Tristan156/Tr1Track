@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "queries": 12,
+  "global_forward_count": 240,
+  "local_frames": 287,
+  "generation_attempts": 0,
+  "candidate_cache_sha256": "d3e03d7e58e5b595651ffa0c32abcdbcff4704f7314c9126b8b2cc1bda452ca5"
+}

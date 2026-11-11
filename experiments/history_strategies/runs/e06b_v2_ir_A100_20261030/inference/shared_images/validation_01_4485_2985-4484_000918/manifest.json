@@ -1,0 +1,285 @@
+{
+  "reference": {
+    "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/reference.png",
+    "sha256": "b93caaebeaf24a30a6519722a10e2e7c960ae0c749b06fb5ad26e52a975b2f79",
+    "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/reference.png",
+    "input_sha256": "b93caaebeaf24a30a6519722a10e2e7c960ae0c749b06fb5ad26e52a975b2f79",
+    "input_size_wh": [
+      75,
+      75
+    ],
+    "output_size_wh": [
+      75,
+      75
+    ],
+    "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+    "changes_sampling": false,
+    "shared_by": [
+      "V0",
+      "Vh",
+      "C"
+    ]
+  },
+  "history": [
+    {
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/history_0.png",
+      "sha256": "0ab5cddab5c075cfbc589d7ce4262e36d92071e248d0da77f83fbafd56a7e40f",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000916_past_local.png",
+      "input_sha256": "0ab5cddab5c075cfbc589d7ce4262e36d92071e248d0da77f83fbafd56a7e40f",
+      "input_size_wh": [
+        178,
+        144
+      ],
+      "output_size_wh": [
+        178,
+        144
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/history_1.png",
+      "sha256": "c50e3ab346f38e16fd20698c18a4b2202f0d5acbc2b3353d011c50358cf29e4c",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000917_past_local.png",
+      "input_sha256": "c50e3ab346f38e16fd20698c18a4b2202f0d5acbc2b3353d011c50358cf29e4c",
+      "input_size_wh": [
+        161,
+        137
+      ],
+      "output_size_wh": [
+        161,
+        137
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "p_00c05be7528b1d87ebf523a8",
+      "bbox_xywh": [
+        25.636561127379537,
+        425.5011398047209,
+        39.12127348780632,
+        40.82439681887627
+      ],
+      "native_rank": 4,
+      "original_rank": 4,
+      "tracker_score": 0.38393718004226685,
+      "raw_score": 0.38393718004226685,
+      "tile_id": 3,
+      "grid_index": 151,
+      "label": "A",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/candidate_A.png",
+      "sha256": "7c98c0a793c22d38f1eaddaad6e5acda548e0520427014765ac364630cec9111",
+      "crop_bounds_xyxy": [
+        14,
+        415,
+        76,
+        477
+      ],
+      "inner_prediction_box_xyxy": [
+        11.636561127379537,
+        10.501139804720879,
+        50.75783461518586,
+        51.325536623597145
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 918,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000918.jpg",
+      "source_sha256": "7983e3f7db50998de5ce291eac053adeff8ea377ec495a21da7190ecf0217406",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000918_p_00c05be7528b1d87ebf523a8.png",
+      "input_sha256": "7c98c0a793c22d38f1eaddaad6e5acda548e0520427014765ac364630cec9111",
+      "input_size_wh": [
+        62,
+        62
+      ],
+      "output_size_wh": [
+        62,
+        62
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_06946314010c304b3eb2be3e",
+      "bbox_xywh": [
+        511.86387917399406,
+        401.3981764540076,
+        51.88398760557175,
+        21.62826919555664
+      ],
+      "native_rank": 1,
+      "original_rank": 1,
+      "tracker_score": 0.4725343883037567,
+      "raw_score": 0.4725343883037567,
+      "tile_id": 14,
+      "grid_index": 550,
+      "label": "B",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/candidate_B.png",
+      "sha256": "6d6a397fb3d26b6db517b539ee0df8393776b7da8ae423fc0dd8a90bf56898dc",
+      "crop_bounds_xyxy": [
+        498,
+        373,
+        577,
+        452
+      ],
+      "inner_prediction_box_xyxy": [
+        13.863879173994064,
+        28.398176454007626,
+        65.74786677956581,
+        50.026445649564266
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 918,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000918.jpg",
+      "source_sha256": "7983e3f7db50998de5ce291eac053adeff8ea377ec495a21da7190ecf0217406",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000918_p_06946314010c304b3eb2be3e.png",
+      "input_sha256": "6d6a397fb3d26b6db517b539ee0df8393776b7da8ae423fc0dd8a90bf56898dc",
+      "input_size_wh": [
+        79,
+        79
+      ],
+      "output_size_wh": [
+        79,
+        79
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_976b130c322593f505caf7c7",
+      "bbox_xywh": [
+        423.90376821905375,
+        218.10554872825742,
+        43.3940332531929,
+        20.251501232385635
+      ],
+      "native_rank": 2,
+      "original_rank": 2,
+      "tracker_score": 0.45900657773017883,
+      "raw_score": 0.45900657773017883,
+      "tile_id": 13,
+      "grid_index": 342,
+      "label": "C",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/candidate_C.png",
+      "sha256": "ed90c1518e496d595fa67712a6da3d011fa218602a156025a11e913890d3b0a9",
+      "crop_bounds_xyxy": [
+        413,
+        195,
+        479,
+        261
+      ],
+      "inner_prediction_box_xyxy": [
+        10.903768219053745,
+        23.105548728257418,
+        54.29780147224665,
+        43.35704996064305
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 918,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000918.jpg",
+      "source_sha256": "7983e3f7db50998de5ce291eac053adeff8ea377ec495a21da7190ecf0217406",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000918_p_976b130c322593f505caf7c7.png",
+      "input_sha256": "ed90c1518e496d595fa67712a6da3d011fa218602a156025a11e913890d3b0a9",
+      "input_size_wh": [
+        66,
+        66
+      ],
+      "output_size_wh": [
+        66,
+        66
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    },
+    {
+      "candidate_id": "p_fd0f3419dd66386b09630d0d",
+      "bbox_xywh": [
+        9.796931430697441,
+        1.1398576758801937,
+        37.525691986083984,
+        10.0
+      ],
+      "native_rank": 3,
+      "original_rank": 3,
+      "tracker_score": 0.42473939061164856,
+      "raw_score": 0.42473939061164856,
+      "tile_id": 0,
+      "grid_index": 28,
+      "label": "D",
+      "image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/inference/shared_images/validation_01_4485_2985-4484_000918/candidate_D.png",
+      "sha256": "6b60ba1d22f38057c87ea625ae44d26a532cf040722afb7b45aef1363c2f26d7",
+      "crop_bounds_xyxy": [
+        0,
+        0,
+        57,
+        35
+      ],
+      "inner_prediction_box_xyxy": [
+        9.796931430697441,
+        1.1398576758801937,
+        47.322623416781425,
+        11.139857675880194
+      ],
+      "marker": "blue predicted region; init reference only uses permitted init box",
+      "sequence": "validation/01_4485_2985-4484",
+      "modality": "IR",
+      "source_frame": 918,
+      "source_path": "/home/user/code/tracking-vlm-a100-lab/assets/e06_target/ir_event_bundle/frames/validation/01_4485_2985-4484/000918.jpg",
+      "source_sha256": "7983e3f7db50998de5ce291eac053adeff8ea377ec495a21da7190ecf0217406",
+      "role": "current_candidate",
+      "input_image": "/home/user/code/tracking-vlm-a100-lab/runs/e06b_v2_ir_A100_20261030/images/validation_01_4485_2985-4484/000918_p_fd0f3419dd66386b09630d0d.png",
+      "input_sha256": "6b60ba1d22f38057c87ea625ae44d26a532cf040722afb7b45aef1363c2f26d7",
+      "input_size_wh": [
+        57,
+        35
+      ],
+      "output_size_wh": [
+        57,
+        35
+      ],
+      "policy": "RGB; uniform upscale only if minimum side <28; ceil; PIL BICUBIC",
+      "changes_sampling": false,
+      "shared_by": [
+        "V0",
+        "Vh",
+        "C"
+      ]
+    }
+  ]
+}

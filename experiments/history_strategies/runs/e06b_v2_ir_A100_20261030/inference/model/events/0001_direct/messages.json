@@ -1,0 +1,143 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": [
+        {
+          "type": "text",
+          "text": "Verify the identity of the original initialization target among current visual tracker proposals. Each image has an explicit reference/history/distractor/candidate label immediately before it. Past crops are predictions, not verified truth, and may already be wrong. Initialization distractor images are merely possible confusing proposals and may show the target itself or background. The supplied attributes are hypotheses, not verified facts. Candidate order is arbitrary. Select a supplied candidate letter only when visible evidence supports the same individual and the object inside the blue proposal rectangle, not any object elsewhere in the context crop. Use NONE when evidence supports that none matches; use ABSTAIN when identity is ambiguous or not visible. Neither rejection means the target is absent from the full scene. Do not infer unseen markings, motion or physical measurements. Return only JSON with exactly two string keys answer and evidence. answer is a supplied A-D letter, NONE or ABSTAIN; evidence gives a short visible reason."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "INITIALIZATION TARGET REFERENCE (original target identity):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_00.png",
+          "role_text": "INITIALIZATION TARGET REFERENCE (original target identity):",
+          "pixel_sha256": "69fd395acf02271d9760afd93ebf11b479860239cd4e11b3c4644b92c8a6c412",
+          "size_wh": [
+            75,
+            75
+          ]
+        },
+        {
+          "type": "text",
+          "text": "PAST TRACKER PREDICTION 1 (strictly past, unverified identity):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_01.png",
+          "role_text": "PAST TRACKER PREDICTION 1 (strictly past, unverified identity):",
+          "pixel_sha256": "1ed3f892f051bdac50195e5cc1feb6b07d42e87b04b7f80303bb236da431baf5",
+          "size_wh": [
+            74,
+            74
+          ]
+        },
+        {
+          "type": "text",
+          "text": "PAST TRACKER PREDICTION 2 (strictly past, unverified identity):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_02.png",
+          "role_text": "PAST TRACKER PREDICTION 2 (strictly past, unverified identity):",
+          "pixel_sha256": "28b8e701973281e1247600e74096359ad373d8ea9a16168d2dbde9f3fcdce468",
+          "size_wh": [
+            73,
+            73
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CURRENT CANDIDATE A (arbitrary label; this image belongs to A):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_03.png",
+          "role_text": "CURRENT CANDIDATE A (arbitrary label; this image belongs to A):",
+          "pixel_sha256": "f028299fd674b9f8d1bd81ef61144c184b144beaf9e7547330dd2650894ea75c",
+          "size_wh": [
+            54,
+            53
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CURRENT CANDIDATE B (arbitrary label; this image belongs to B):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_04.png",
+          "role_text": "CURRENT CANDIDATE B (arbitrary label; this image belongs to B):",
+          "pixel_sha256": "3d3c7f75e9ad1ddd2cb9ef53d5f912bfba03b15f29fef36d06bb5d5b236b6927",
+          "size_wh": [
+            73,
+            73
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CURRENT CANDIDATE C (arbitrary label; this image belongs to C):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_05.png",
+          "role_text": "CURRENT CANDIDATE C (arbitrary label; this image belongs to C):",
+          "pixel_sha256": "46178aea618cb0718524b1b0a02bb5aee97399078706b8c9bef38d0bdc35bda5",
+          "size_wh": [
+            81,
+            80
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CURRENT CANDIDATE D (arbitrary label; this image belongs to D):"
+        },
+        {
+          "type": "image",
+          "saved_file": "image_06.png",
+          "role_text": "CURRENT CANDIDATE D (arbitrary label; this image belongs to D):",
+          "pixel_sha256": "a808b1fddcdc383f65dc796d9ce823fb4439e3cbdcdd84936c0f5d678fbb7352",
+          "size_wh": [
+            61,
+            61
+          ]
+        },
+        {
+          "type": "text",
+          "text": "TARGET ATTRIBUTE HYPOTHESES IN ORDER (unverified; same for both output modes): []"
+        }
+      ]
+    }
+  ],
+  "message_sha256": "8f5121e39519443383b1456d341436f74c7dd819ab382a739a6439e2cf625ebb",
+  "model": {
+    "model_path": "/home/user/code/tracking-vlm-a100-lab/models/qwen25-7b",
+    "prompt_version": "e05-labelled-attribute-qa-v1",
+    "local_files_only": true,
+    "device": "cuda",
+    "use_fast": false,
+    "max_pixels_per_image": 262144,
+    "max_new_tokens": 192,
+    "transformers": "4.51.3",
+    "torch": "2.3.0+cu121",
+    "cuda_runtime": "12.1",
+    "model_class": "Qwen2_5_VLForConditionalGeneration",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "actual_model_commit": null,
+    "config_sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+    "processor_class": "Qwen2_5_VLProcessor",
+    "experiment": "E06B_v2",
+    "compatibility_monkey_patch": false,
+    "shared_preprocess": "explicit shared minimum-side-28 RGB BICUBIC upscale; no monkey patch",
+    "visual_feature_api": "visual_legacy_4_51"
+  }
+}

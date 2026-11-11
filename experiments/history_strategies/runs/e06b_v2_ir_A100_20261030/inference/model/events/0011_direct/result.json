@@ -1,0 +1,11 @@
+{
+  "status": "VALID",
+  "answer": "A",
+  "evidence": "The original target is clearly visible in the first image, and Candidate A matches its appearance.",
+  "raw": "{\n  \"answer\": \"A\",\n  \"evidence\": \"The original target is clearly visible in the first image, and Candidate A matches its appearance.\"\n}",
+  "event_id": "0011_direct",
+  "seconds": 9.921587329823524,
+  "generation_calls": 1,
+  "kind": "direct",
+  "case_id": "validation_02_1610_0001_1500_000292"
+}

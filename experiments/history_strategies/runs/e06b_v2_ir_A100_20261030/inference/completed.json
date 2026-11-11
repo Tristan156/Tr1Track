@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-30T00:45:59.021808+00:00",
+  "rows": 12,
+  "status": "COMPLETE",
+  "stop_reason": null,
+  "generation_attempts": 12,
+  "maximum": 12,
+  "elapsed_seconds_including_load_visual_io": 238.9199386490509,
+  "closed_loop": false,
+  "validation_plan_sha256": "d9a996134e7bf9ef349098165698a63664958174190db8868e4b1a55c74d34b2"
+}

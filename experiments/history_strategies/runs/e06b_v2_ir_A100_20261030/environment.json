@@ -1,0 +1,19 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.1.2",
+    "Pillow": "11.0.0",
+    "pytest": "9.1.1",
+    "cv2": "4.11.0"
+  },
+  "GPU": "NVIDIA GeForce RTX 5070",
+  "new_vlm_calls": 0,
+  "training": false,
+  "new_data_downloads": 0,
+  "new_global_tracker_forwards": 240,
+  "new_local_tracker_forwards": 285,
+  "local_initializations": 2,
+  "candidate_phase_seconds": 21.904443500003254
+}
