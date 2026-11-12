@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1960" height="2480" viewBox="0 0 980 1240" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0 0L10 5L0 10z" fill="#455A64"/>
+</marker>
+<marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0 0L10 5L0 10z" fill="#1565C0"/>
+</marker>
+</defs>
+<rect width="980" height="1240" fill="#FAFAFA"/>
+
+<!-- 输入 -->
+<rect x="230" y="18" width="520" height="52" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="1.5"/>
+<text x="490" y="40" text-anchor="middle" font-size="17" fill="#263238" font-weight="bold">连续视频输入</text>
+<text x="490" y="60" text-anchor="middle" font-size="12.5" fill="#546E7A">舰艇可见光序列 ｜ 反无人机红外序列（首帧给定目标框）</text>
+<line x1="490" y1="70" x2="490" y2="96" stroke="#455A64" stroke-width="2" marker-end="url(#arr)"/>
+
+<!-- 跟踪层 -->
+<rect x="80" y="100" width="820" height="130" rx="12" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+<text x="110" y="130" font-size="16" fill="#1B5E20" font-weight="bold">跟踪层 · OSTrack 逐帧定位</text>
+<rect x="110" y="145" width="230" height="66" rx="6" fill="#FFFFFF" stroke="#66BB6A"/>
+<text x="225" y="170" text-anchor="middle" font-size="13" fill="#1B5E20">局部窗口模板匹配</text>
+<text x="225" y="192" text-anchor="middle" font-size="11.5" fill="#616161">正常时保持当前估计（零干预）</text>
+<rect x="375" y="145" width="230" height="66" rx="6" fill="#FFFFFF" stroke="#66BB6A"/>
+<text x="490" y="170" text-anchor="middle" font-size="13" fill="#1B5E20">响应分 + 当前框</text>
+<text x="490" y="192" text-anchor="middle" font-size="11.5" fill="#616161">pre 框 / score 每帧输出</text>
+<rect x="640" y="145" width="230" height="66" rx="6" fill="#FFF8E1" stroke="#F9A825"/>
+<text x="755" y="170" text-anchor="middle" font-size="13" fill="#8D6E00" font-weight="bold">低置信触发（门控信号）</text>
+<text x="755" y="192" text-anchor="middle" font-size="11.5" fill="#8D6E00">score &lt; tau（域标定）→ 唤醒证据层</text>
+
+<!-- 证据层 -->
+<rect x="40" y="272" width="900" height="430" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+<text x="70" y="302" font-size="16" fill="#0D47A1" font-weight="bold">证据层 · 大模型多层证据池（触发时激活）</text>
+<line x1="490" y1="230" x2="490" y2="272" stroke="#1565C0" stroke-width="2" marker-end="url(#arrB)"/>
+<text x="505" y="256" font-size="11.5" fill="#1565C0">低置信触发</text>
+
+<rect x="70" y="318" width="360" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="250" y="341" text-anchor="middle" font-size="13.5" fill="#0D47A1" font-weight="bold">全图检索 · 候选生成</text>
+<text x="250" y="362" text-anchor="middle" font-size="11.5" fill="#546E7A">逐 tile 扫描 → top16 → top4（Recall 83–90%）</text>
+
+<rect x="70" y="388" width="360" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="250" y="411" text-anchor="middle" font-size="13.5" fill="#0D47A1" font-weight="bold">表征层 · 视觉编码器相似度</text>
+<text x="250" y="432" text-anchor="middle" font-size="11.5" fill="#546E7A">零训练 · 开放目标 ｜ 标定 94% ≈ DINOv2（主核验）</text>
+
+<rect x="70" y="458" width="360" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="250" y="481" text-anchor="middle" font-size="13.5" fill="#0D47A1" font-weight="bold">语义层 · 属性级判别（条件调度）</text>
+<text x="250" y="502" text-anchor="middle" font-size="11.5" fill="#546E7A">舰型/结构/标识/涂装 ｜ 表征不确定时引入</text>
+
+<rect x="70" y="528" width="360" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="250" y="551" text-anchor="middle" font-size="13.5" fill="#0D47A1" font-weight="bold">元认知层 · 不确定性拒答</text>
+<text x="250" y="572" text-anchor="middle" font-size="11.5" fill="#546E7A">自评置信 + 拒答选项（安全阀，防误接受）</text>
+
+<rect x="460" y="318" width="200" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="560" y="341" text-anchor="middle" font-size="12.5" fill="#0D47A1" font-weight="bold">历史通道</text>
+<text x="560" y="362" text-anchor="middle" font-size="11" fill="#546E7A">首帧锚点 + 可靠历史</text>
+<text x="560" y="378" text-anchor="middle" font-size="10.5" fill="#90A4AE">漂移时退回锚点</text>
+<rect x="460" y="388" width="200" height="58" rx="6" fill="#FFFFFF" stroke="#42A5F5"/>
+<text x="560" y="411" text-anchor="middle" font-size="12.5" fill="#0D47A1" font-weight="bold">独立视觉模型</text>
+<text x="560" y="432" text-anchor="middle" font-size="11" fill="#546E7A">DINOv2 交叉校验</text>
+<text x="560" y="448" text-anchor="middle" font-size="10.5" fill="#90A4AE">双通道共识抑制假阳性</text>
+
+<rect x="700" y="318" width="215" height="128" rx="6" fill="#F3E5F5" stroke="#8E24AA"/>
+<text x="807" y="345" text-anchor="middle" font-size="13" fill="#6A1B9A" font-weight="bold">标定事实（接口形态）</text>
+<text x="807" y="372" text-anchor="middle" font-size="12" fill="#4A148C">视觉表征 94%</text>
+<text x="807" y="392" text-anchor="middle" font-size="12" fill="#4A148C">独立小模型 94%</text>
+<text x="807" y="412" text-anchor="middle" font-size="12" fill="#4A148C">生成式接口 79%</text>
+<text x="807" y="434" text-anchor="middle" font-size="10.5" fill="#7B1FA2">接口形态 &gt; 模型规模</text>
+
+<line x1="250" y1="446" x2="250" y2="458" stroke="#1565C0" stroke-width="1.2"/>
+<line x1="430" y1="417" x2="460" y2="417" stroke="#90A4AE" stroke-width="1" stroke-dasharray="4 3"/>
+
+<!-- 决策层 -->
+<rect x="40" y="726" width="900" height="280" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="70" y="756" font-size="16" fill="#BF360C" font-weight="bold">决策层 · 状态条件化采纳门控</text>
+<line x1="490" y1="702" x2="490" y2="726" stroke="#E65100" stroke-width="2" marker-end="url(#arr)"/>
+<text x="505" y="720" font-size="11.5" fill="#E65100">多层证据 + 响应分 + 历史一致性</text>
+
+<rect x="70" y="772" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#FFB74D"/>
+<text x="250" y="796" text-anchor="middle" font-size="13.5" fill="#BF360C" font-weight="bold">状态估计（三态）</text>
+<text x="250" y="818" text-anchor="middle" font-size="11.5" fill="#546E7A">正常跟踪 ｜ 可恢复跟断 ｜ 真实消失</text>
+<text x="250" y="836" text-anchor="middle" font-size="11" fill="#90A4AE">响应分 × 候选可达性 × 历史一致性（两域分离实证）</text>
+
+<rect x="70" y="852" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#FFB74D"/>
+<text x="250" y="876" text-anchor="middle" font-size="13.5" fill="#BF360C" font-weight="bold">证据调度</text>
+<text x="250" y="898" text-anchor="middle" font-size="11.5" fill="#546E7A">正常→不干预 ｜ 跟断→表征层优先</text>
+<text x="250" y="916" text-anchor="middle" font-size="11.5" fill="#546E7A">表征不确定→调度语义层 ｜ 属性不可辨→弃权</text>
+
+<rect x="70" y="932" width="360" height="58" rx="6" fill="#FFFFFF" stroke="#FFB74D"/>
+<text x="250" y="955" text-anchor="middle" font-size="13.5" fill="#BF360C" font-weight="bold">采纳门控</text>
+<text x="250" y="977" text-anchor="middle" font-size="11.5" fill="#546E7A">score&lt;tau 且弃权规则通过 → 写回状态，否则保留 pre</text>
+
+<!-- 决策三分支 -->
+<line x1="430" y1="960" x2="470" y2="960" stroke="#455A64" stroke-width="1.6"/>
+<rect x="470" y="770" width="450" height="72" rx="6" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="695" y="796" text-anchor="middle" font-size="13" fill="#1B5E20" font-weight="bold">① 正常 → KEEP</text>
+<text x="695" y="818" text-anchor="middle" font-size="11.5" fill="#546E7A">保留局部估计，零干预（防改坏：1-Boat 案例归零）</text>
+<rect x="470" y="852" width="450" height="72" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="695" y="878" text-anchor="middle" font-size="13" fill="#0D47A1" font-weight="bold">② 可恢复跟断 → RECOVER</text>
+<text x="695" y="900" text-anchor="middle" font-size="11.5" fill="#546E7A">候选写回状态延续跟踪（IR：0.46→0.76；船舶 +2.7pt）</text>
+<rect x="470" y="934" width="450" height="60" rx="6" fill="#ECEFF1" stroke="#78909C" stroke-width="1.5"/>
+<text x="695" y="958" text-anchor="middle" font-size="13" fill="#37474F" font-weight="bold">③ 真实消失 → DECLINE</text>
+<text x="695" y="978" text-anchor="middle" font-size="11.5" fill="#546E7A">声明"目标不可见"保留搜索信息，待重现（防误接受）</text>
+
+<!-- 输出 -->
+<line x1="490" y1="1006" x2="490" y2="1036" stroke="#455A64" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="230" y="1040" width="520" height="60" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="1.5"/>
+<text x="490" y="1064" text-anchor="middle" font-size="15" fill="#263238" font-weight="bold">输出：逐帧目标框 + 失效状态 + 采纳/拒答动作日志</text>
+<text x="490" y="1088" text-anchor="middle" font-size="12" fill="#546E7A">闭环评价：成功率 / 延续 IoU / 误接受 / 误触发 / 调用成本</text>
+
+<rect x="140" y="1120" width="700" height="96" rx="8" fill="#E8EAF6" stroke="#3949AB" stroke-width="1.5"/>
+<text x="490" y="1146" text-anchor="middle" font-size="13" fill="#283593" font-weight="bold">闭环验证结果（1435 帧全量，无 GT 推理，语言生成 0）</text>
+<text x="490" y="1170" text-anchor="middle" font-size="12.5" fill="#37474F">不恢复 44.5% → 无条件 96.2% → </text>
+<text x="490" y="1194" text-anchor="middle" font-size="13.5" fill="#1A237E" font-weight="bold">门控 98.9%（≈oracle，对正常序列零损害）</text>
+
+<text x="490" y="1228" text-anchor="middle" font-size="10.5" fill="#90A4AE">面向舰艇与反无人机场景的大模型辅助目标跟踪可靠恢复 · 技术路线</text>
+</svg>
